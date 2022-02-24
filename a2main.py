@@ -1,14 +1,3 @@
-"""
-Assignment 2: Quadtree Compression
-
-=== CSC148 Winter 2021 ===
-Department of Mathematical and Computational Sciences,
-University of Toronto Mississauga
-
-=== Module Description ===
-This module contains the compressor and decompressor classes.
-"""
-
 from typing import List, Tuple
 
 from a2files import QuadTreeFile, BMPFile, BMP_EXTENSION, QDT_EXTENSION

@@ -1,14 +1,3 @@
-"""
-Assignment 2: Quadtree Compression
-
-=== CSC148 Winter 2021 ===
-Department of Mathematical and Computational Sciences,
-University of Toronto Mississauga
-
-=== Module Description ===
-This module contains classes for the file I/O of BMP and QDT
-"""
-
 from typing import List, Any
 
 from a2tree import QuadTree
@@ -203,6 +192,3 @@ if __name__ == '__main__':
 
     import doctest
     doctest.testmod()
-
-    # import python_ta
-    # python_ta.check_all()
