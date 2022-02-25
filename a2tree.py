@@ -1,14 +1,3 @@
-"""
-Assignment 2: Quadtree Compression
-
-=== CSC148 Winter 2021 ===
-Department of Mathematical and Computational Sciences,
-University of Toronto Mississauga
-
-=== Module Description ===
-This module contains classes implementing the quadtree.
-"""
-
 from __future__ import annotations
 import math
 from typing import List, Tuple, Optional
