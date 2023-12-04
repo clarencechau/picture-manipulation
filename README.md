@@ -1,15 +1,18 @@
 # Picture Manipulation Tool
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/clarencechau/Meepo-Is-You/blob/main/readmepictures/wallispush.png?raw=true" width="200" height="200" />
-    <img src="https://github.com/clarencechau/Meepo-Is-You/blob/main/readmepictures/pushedwall.png?raw=true" width="200" height="200" />
+    <img src="https://github.com/clarencechau/picture-manipulation/blob/main/extras/dog.png?raw=true" width="200" height="200" />
+    <img src="https://github.com/clarencechau/picture-manipulation/blob/main/extras/dognormal.png?raw=true" width="200" height="200" />
+    <img src="https://github.com/clarencechau/picture-manipulation/blob/main/extras/doglosslevel.png?raw=true" width="200" height="200" />
+    <img src="https://github.com/clarencechau/picture-manipulation/blob/main/extras/dogmirrored.png?raw=true" width="200" height="200" />
+
 </div>
 
 ## Application Description
 
 This was one of the first computer science projects I did at the University of Toronto when I was in first year. The point of this project was to recreate some of the basic features Photoshop provides, 
 such as mirroring photos, changing saturation, and manipulating the loss level of the picture after the transformation has been done. Specific to this project, the application takes in a BMP file, and converts it into a 
-QDT. In which it then analyzes and configures the RGBA values, and returns a final BMP file for the user of the final transformation.
+QDT file. Then, an algorithm is run to configure and rearrange the RGBA values and pixel formations, finally returning a BMP file of the final transformation.
 
 ## Instructions
 
