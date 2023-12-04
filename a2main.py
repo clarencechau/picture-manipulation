@@ -3,7 +3,7 @@ from typing import List, Tuple
 from a2files import QuadTreeFile, BMPFile, BMP_EXTENSION, QDT_EXTENSION
 from a2tree import QuadTree
 
-MIRROR_IMG = True
+MIRROR_IMG = False # CHANGE MIRRORING OPTION HERE
 
 
 class Compressor:
@@ -140,8 +140,8 @@ class Decompressor:
 
 
 if __name__ == '__main__':
-    file_name = 'uoft.bmp'
-    loss_level = 50
+    file_name = 'toronto.bmp'  # CHANGE FILE NAME HERE
+    loss_level = 0  # CHANGE LOSS LEVEL HERE
 
     print('Loss Level [Between 0-255] : ', loss_level)
     print('File name: ' + file_name)
